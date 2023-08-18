@@ -27,15 +27,15 @@
 #   STUBL_JOBSCRIPT_ROOT_DIR = path to root dir where
 #   SLURM job scripts are saved
 # =====================================================
-export STUBL_CLUSTERS="tux tux2"
-export STUBL_DEFAULT_CLUSTER=tux
-export STUBL_DEFAULT_PARTITION=compute
+export STUBL_CLUSTERS="scicluster"
+export STUBL_DEFAULT_CLUSTER=scicluster
+export STUBL_DEFAULT_PARTITION=short
 export STUBL_DEBUG_PARTITION=debug
 export STUBL_GPGPU_PARTITION=gpu
 export STUBL_SQSTAT_EXCLUDES="^$"
 export STUBL_TMP_DIR=/tmp
 export STUBL_SCRATCH_DIR=/scratch
-export STUBL_PEAK_TFLOPS=999
+export STUBL_PEAK_TFLOPS=3.3344
 export STUBL_SLURM_CONF=/etc/slurm/slurm.conf
 export STUBL_SLURM_STATE_DIR=/tmp
 export STUBL_USER_EXCLUDE=somebody
