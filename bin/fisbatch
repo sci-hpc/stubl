@@ -196,7 +196,7 @@ echo "FISBATCH -- Connecting to head node ($HNODE)"
 sleep 1s
 
 # SSH to the node and attach the screen
-ssh -X -t $HNODE $IS slurm$JOB
+ssh -Y -t $HNODE $IS slurm$JOB
 
 # The trap will now cancel the job before exiting.
 echo "FISBATCH -- exiting job"
